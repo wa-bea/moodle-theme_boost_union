@@ -6,6 +6,7 @@ Changes
 
 ### Unreleased
 
+* 2024-06-10 - Feature: Add color picker settings for calendar colors, resolves #434.
 * 2024-08-11 - Updated Moodle Plugin CI to latest upstream recommendations
 * 2024-07-24 - Test: Fix broken Behat scenario 'Suppress 'Chat to course participants' link', resolves #696
 

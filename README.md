@@ -158,6 +158,52 @@ With these settings, you can override the activity icon background color which i
 
 With this setting, you can modify the icons for activities and resources which are used by Moodle on the course pages and in the activity chooser. You can upload custom icons for all or only some activity modules installed in this Moodle instance.
 
+#### Tab "Calendar Branding"
+
+With these settings, you can override the colors of individual calendar entry types and the border colors of event markers.
+
+##### Event of the type "category"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Event of the type "course"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Event of the type "site"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Event of the type "group"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Event of the type "user"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Event of the type "other"
+
+###### Color of the calendar entry
+
+###### Border color
+
+##### Icon color
+
+###### Color of the icons
+
+With this setting you can override the color of mini-calendar links, hide/show filter icons and edit/delete button icons.
+
 #### Tab "Login page"
 
 ##### Login page background images

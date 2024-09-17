@@ -688,6 +688,161 @@ if ($hassiteconfig || has_capability('theme/boost_union:configure', context_syst
         $page->add($tab);
 
 
+        // Create calendar branding tab.
+        $tab = new admin_settingpage('theme_boost_union_look_calendarbranding',
+            get_string('calendarbrandingtab', 'theme_boost_union', null, true));
+
+        // Create calendar colors for an event of the type "category" heading.
+        $name = 'theme_boost_union/calendarcolorscategoryheading';
+        $title = get_string('calendarcolorscategoryheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "category".
+        $name = 'theme_boost_union/calendareventcategorycolor';
+        $title = get_string('calendareventcategorycolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventcategorycolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "category".
+        $name = 'theme_boost_union/calendareventcategorybordercolor';
+        $title = get_string('calendareventcategorybordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventcategorybordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar colors for an event of the type "course" heading.
+        $name = 'theme_boost_union/calendarcolorscourseheading';
+        $title = get_string('calendarcolorscourseheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "course".
+        $name = 'theme_boost_union/calendareventcoursecolor';
+        $title = get_string('calendareventcoursecolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventcoursecolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "course".
+        $name = 'theme_boost_union/calendareventcoursebordercolor';
+        $title = get_string('calendareventcoursebordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventcoursebordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar colors for an event of the type "site" heading.
+        $name = 'theme_boost_union/calendarcolorssiteheading';
+        $title = get_string('calendarcolorssiteheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "site".
+        $name = 'theme_boost_union/calendareventsitecolor';
+        $title = get_string('calendareventsitecolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventsitecolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "site".
+        $name = 'theme_boost_union/calendareventsitebordercolor';
+        $title = get_string('calendareventsitebordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventsitebordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar colors for an event of the type "group" heading.
+        $name = 'theme_boost_union/calendarcolorsgroupheading';
+        $title = get_string('calendarcolorsgroupheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "group".
+        $name = 'theme_boost_union/calendareventgroupcolor';
+        $title = get_string('calendareventgroupcolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventgroupcolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "group".
+        $name = 'theme_boost_union/calendareventgroupbordercolor';
+        $title = get_string('calendareventgroupbordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventgroupbordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar colors for an event of the type "user" heading.
+        $name = 'theme_boost_union/calendarcolorsuserheading';
+        $title = get_string('calendarcolorsuserheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "user".
+        $name = 'theme_boost_union/calendareventusercolor';
+        $title = get_string('calendareventusercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventusercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "user".
+        $name = 'theme_boost_union/calendareventuserbordercolor';
+        $title = get_string('calendareventuserbordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventuserbordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar colors for an event of the type "other" heading.
+        $name = 'theme_boost_union/calendarcolorsotherheading';
+        $title = get_string('calendarcolorsotherheading', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, null);
+        $tab->add($setting);
+
+        // Setting: Color for the type "other".
+        $name = 'theme_boost_union/calendareventothercolor';
+        $title = get_string('calendareventothercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventothercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Setting: Border color for the type "other".
+        $name = 'theme_boost_union/calendareventotherbordercolor';
+        $title = get_string('calendareventotherbordercolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendareventotherbordercolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Create calendar icons color heading.
+        $name = 'theme_boost_union/calendariconscolorheading';
+        $title = get_string('calendariconscolorheading', 'theme_boost_union', null, true);
+        $description = get_string('calendariconscolorheading_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_heading($name, $title, $description);
+        $tab->add($setting);
+
+        // Setting: Color of the calendar icons.
+        $name = 'theme_boost_union/calendariconscolor';
+        $title = get_string('calendariconscolorsetting', 'theme_boost_union', null, true);
+        $description = get_string('calendariconscolorsetting_desc', 'theme_boost_union', null, true);
+        $setting = new admin_setting_configcolourpicker($name, $title, $description, '');
+        $setting->set_updatedcallback('theme_reset_all_caches');
+        $tab->add($setting);
+
+        // Add tab to settings page.
+        $page->add($tab);
+
+
         // Create login page tab.
         $tab = new admin_settingpage('theme_boost_union_look_loginpage',
                 get_string('loginpagetab', 'theme_boost_union', null, true));

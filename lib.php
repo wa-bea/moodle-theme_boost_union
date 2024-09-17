@@ -193,6 +193,19 @@ function theme_boost_union_get_pre_scss($theme) {
         'activityiconcolorcommunication' => ['activity-icon-communication-bg'],
         'activityiconcolorcontent' => ['activity-icon-content-bg'],
         'activityiconcolorinterface' => ['activity-icon-interface-bg'],
+        'calendareventcategorycolor' => ['calendarEventCategoryColor'],
+        'calendareventcategorybordercolor' => ['calendarEventCategoryBorderColor'],
+        'calendareventcoursecolor' => ['calendarEventCourseColor'],
+        'calendareventcoursebordercolor' => ['calendarEventCourseBorderColor'],
+        'calendareventsitecolor' => ['calendarEventGlobalColor'],
+        'calendareventsitebordercolor' => ['calendarEventGlobalBorderColor'],
+        'calendareventgroupcolor' => ['calendarEventGroupColor'],
+        'calendareventgroupbordercolor' => ['calendarEventGroupBorderColor'],
+        'calendareventusercolor' => ['calendarEventUserColor'],
+        'calendareventuserbordercolor' => ['calendarEventUserBorderColor'],
+        'calendareventothercolor' => ['calendarEventOtherColor'],
+        'calendareventotherbordercolor' => ['calendarEventOtherBorderColor'],
+        'calendariconscolor' => ['calendarEventColor'],
     ];
 
     // Prepend variables first.

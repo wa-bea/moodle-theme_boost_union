@@ -235,6 +235,63 @@ $string['modiconversion'] = 'Icon version';
 $string['modicongtmoodle4'] = 'Moodle 4 icon';
 $string['modiconltmoodle311'] = 'Moodle 3 legacy icon';
 
+// Settings: Calendar branding tab.
+$string['calendarbrandingtab'] = 'Calendar branding';
+// ... Section: Event of the type "category".
+$string['calendarcolorscategoryheading'] = 'Event of the type "category"';
+// ... ... Setting: Color of the calendar entry for the type "category".
+$string['calendareventcategorycolorsetting'] = 'Color of the calendar entry for the type "category"';
+$string['calendareventcategorycolorsetting_desc'] = 'The color of the calendar entry for the type "category"';
+// ... ... Setting: Color of the border for the type "category".
+$string['calendareventcategorybordercolorsetting'] = 'Border color of the calendar entry for the type "category"';
+$string['calendareventcategorybordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "category"';
+// ... Section: Event of the type "course".
+$string['calendarcolorscourseheading'] = 'Event of the type "course"';
+// ... ... Setting: Color of the calendar entry for the type "course".
+$string['calendareventcoursecolorsetting'] = 'Color of the calendar entry for the type "course"';
+$string['calendareventcoursecolorsetting_desc'] = 'The color of the calendar entry for the type "course"';
+// ... ... Setting: Color of the border for the type "course".
+$string['calendareventcoursebordercolorsetting'] = 'Border color of the calendar entry for the type "course"';
+$string['calendareventcoursebordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "course"';
+// ... Section: Event of the type "site".
+$string['calendarcolorssiteheading'] = 'Event of the type "site"';
+// ... ... Setting: Color of the calendar entry for the type "site".
+$string['calendareventsitecolorsetting'] = 'Color of the calendar entry for the type "site"';
+$string['calendareventsitecolorsetting_desc'] = 'The color of the calendar entry for the type "site"';
+// ... ... Setting: Color of the border for the type "site".
+$string['calendareventsitebordercolorsetting'] = 'Border color of the calendar entry for the type "site"';
+$string['calendareventsitebordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "site"';
+// ... Section: Event of the type "group".
+$string['calendarcolorsgroupheading'] = 'Event of the type "group"';
+// ... ... Setting: Color of the calendar entry for the type "group".
+$string['calendareventgroupcolorsetting'] = 'Color of the calendar entry for the type "group"';
+$string['calendareventgroupcolorsetting_desc'] = 'The color of the calendar entry for the type "group"';
+// ... ... Setting: Color of the border for the type "group".
+$string['calendareventgroupbordercolorsetting'] = 'Border color of the calendar entry for the type "group"';
+$string['calendareventgroupbordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "group"';
+// ... Section: Event of the type "user".
+$string['calendarcolorsuserheading'] = 'Event of the type "user"';
+// ... ... Setting: Color of the calendar entry for the type "user".
+$string['calendareventusercolorsetting'] = 'Color of the calendar entry for the type "user"';
+$string['calendareventusercolorsetting_desc'] = 'The color of the calendar entry for the type "user"';
+// ... ... Setting: Color of the border for the type "user".
+$string['calendareventuserbordercolorsetting'] = 'Border color of the calendar entry for the type "user"';
+$string['calendareventuserbordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "user"';
+// ... Section: Event of the type "other".
+$string['calendarcolorsotherheading'] = 'Event of the type "other"';
+// ... ... Setting: Color of the calendar entry for the type "other".
+$string['calendareventothercolorsetting'] = 'Color of the calendar entry for the type "other"';
+$string['calendareventothercolorsetting_desc'] = 'The color of the calendar entry for the type "other"';
+// ... ... Setting: Color of the border for the type "other".
+$string['calendareventotherbordercolorsetting'] = 'Border color of the calendar entry for the type "other"';
+$string['calendareventotherbordercolorsetting_desc'] = 'The color of the border of the calendar entry for the type "other"';
+// ... Section: Calendar icons color.
+$string['calendariconscolorheading'] = 'Icon color';
+$string['calendariconscolorheading_desc'] = 'This will be the color of mini-calendar links, hide/show filter icons, edit/delete button icons.';
+// ... ... Setting: Color of the icons.
+$string['calendariconscolorsetting'] = 'Color of the icons';
+$string['calendariconscolorsetting_desc'] = 'The color of the icons';
+
 // Settings: Login page tab.
 $string['loginpagetab'] = 'Login page';
 // ... Section: Login page background images.
